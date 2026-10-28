@@ -1,13 +1,27 @@
 # Abonnement
 
-No description has been provided yet.
+Static website for the Derya Nova midwifery practice (Hebammenpraxis), with a contact and enquiry page and a data-protection / details page.
 
-## Details
+## Pages
 
-- Primary language: HTML
-- License: not specified
-- Repository: https://github.com/Higer23/Abonnement
+- `index.html` - Landing page with contact and enquiry form
+- `daten.html` - Data protection and details page
+- `klogo.png` - Logo
 
-## Status
+## Getting Started
 
-Setup and usage instructions are not yet documented. They will be added in a future update.
+Open `index.html` in a browser, or serve the folder with any static file server:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
+
+## Notes
+
+The site is written in German, as it targets German-speaking patients. Contact details and wording should be reviewed before publishing any changes.
+
+## License
+
+No license has been specified. All content belongs to its respective owner.
